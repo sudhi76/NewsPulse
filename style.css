@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap");
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -29,7 +29,7 @@ a {
 }
 
 ul {
-    text-decoration: none;
+    list-style: none;
 }
 
 .flex {
@@ -54,5 +54,7 @@ nav {
 }
 
 .main-nav {
-    
+    justify-content: space-between;
+    padding-block: 8px;
 }
+
