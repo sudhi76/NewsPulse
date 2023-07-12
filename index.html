@@ -9,26 +9,40 @@
 <body>
     
     <nav>
-        <div class="main-nav">
+        <div class="main-nav container flex">
             <a href="#">
-                <h1><b>NewsPulse</b></h1>
+                <h1 class="logo">NewsPulse</h1>
             </a>
             <div class="nav-links">
-                <ul>
+                <ul class="flex">
                     <li class="hover-links nav-item">IPL</li>
                     <li class="hover-links nav-item">FINANCE</li>
                     <li class="hover-links nav-item">POLITICS</li>
                 </ul>
             </div>
-            <div class="search-bar">
+            <div class="search-bar flex">
                 <input type="text" class="news-input" placeholder="e.g virat">
                 <button class="search-button">Search</button>
             </div>
         </div>
     </nav>
 
-    <main></main>
+    <main>
+        <div class="cards-container container flex">
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://via.placeholder.com/400x200" alt="card-image">
+                </div>
+                <div class="card-content">
+                    <h3>This is the title</h3>
+                    <h6 class="news-source" id="news-source">End Gadget 11/7/2023</h6>
+                    <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+                </div>
+            </div>
 
+        </div>
+    </main>
+    templ
     <script src="script.js"></script>
 </body>
 </html>
